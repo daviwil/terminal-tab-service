@@ -1,12 +1,11 @@
 {
-  "name": "atom-terminal-tab",
+  "name": "terminal-tab-service",
   "main": "./lib/terminal",
-  "version": "0.3.0",
+  "version": "0.0.0",
   "description": "A simple terminal for panes and docks.",
   "author": {
-    "name": "Justin Mecham",
-    "email": "justin@mecham.me",
-    "url": "http://justin.mecham.me"
+    "name": "David Wilson",
+    "url": "http://daviwil.com"
   },
   "private": true,
   "scripts": {
@@ -20,10 +19,12 @@
     "terminal",
     "term",
     "tty",
-    "xterm"
+    "xterm",
+    "service",
+    "api"
   ],
-  "homepage": "https://atom.io/packages/atom-terminal-tab",
-  "repository": "https://github.com/jsmecham/atom-terminal-tab",
+  "homepage": "https://atom.io/packages/terminal-tab-service",
+  "repository": "https://github.com/daviwil/terminal-tab-service",
   "license": "MIT",
   "engines": {
     "atom": ">=1.16.0 <2.0.0"
@@ -34,8 +35,13 @@
     "resize-observer-polyfill": "^1.5.0",
     "xterm": "^2.9.2"
   },
-  "deserializers": {
-    "TerminalView": "deserializeTerminalView"
+  "providedServices": {
+    "terminal-tab": {
+      "description": "Provides a service for creating terminal tabs.",
+      "versions": {
+        "0.1.0": "provideTerminalTabService"
+      }
+    }
   },
   "eslintConfig": {
     "env": {

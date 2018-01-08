@@ -1,3 +1,4 @@
+Copyright (c) 2018 David Wilson
 Copyright (c) 2017 Justin Mecham <justin@mecham.me>
 
 Permission is hereby granted, free of charge, to any person obtaining
