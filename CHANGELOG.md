@@ -1,3 +1,11 @@
+## 0.1.2
+
+- Correctly pass along environment variables to terminal process
+
+## 0.1.1
+
+- Fix use of terminal-tab-service.matchTheme setting
+
 ## 0.1.0
 
 - Initial release that exposes `terminal-tab` service
