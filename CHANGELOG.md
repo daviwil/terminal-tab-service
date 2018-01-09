@@ -1,3 +1,7 @@
+## 0.1.3
+
+- Remove command handler for `terminal:open`
+
 ## 0.1.2
 
 - Correctly pass along environment variables to terminal process
