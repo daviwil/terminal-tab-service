@@ -1,3 +1,7 @@
+## 0.1.4
+
+- Use node-pty-prebuilt to avoid building node-pty
+
 ## 0.1.3
 
 - Remove command handler for `terminal:open`
