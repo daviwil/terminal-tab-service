@@ -1,7 +1,7 @@
 {
   "name": "terminal-tab-service",
   "main": "./lib/terminal",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Provides a service API called terminal-tab for creating simple terminal tabs.",
   "author": {
     "name": "David Wilson",
